@@ -1,4 +1,4 @@
-package com.stuJava;
+package com.stujava;
 
 /**
  * @author Administrator

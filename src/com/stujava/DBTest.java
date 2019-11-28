@@ -1,5 +1,10 @@
-package com.stuJava;
+package com.stujava;
 import java.sql.*;
+/**
+ * @author: Administrator
+ * @date: 2019/11/28
+ * @description: 测试连接 mariaDB 数据库
+ */
 
 public class DBTest {
     public static void main(String[] args) {
@@ -18,7 +23,6 @@ public class DBTest {
                 System.out.println(rs.getInt(1)+"\t\t"+rs.getString(2)
                 +"\t\t"+rs.getString(3));
             }
-//            System.out.println("Success");
         }catch (Exception e){
             e.printStackTrace();
         }
