@@ -7,7 +7,7 @@ public class DBTest {
             String driver="org.mariadb.jdbc.Driver";
             String url ="jdbc:mariadb://localhost:3306/test";
             String user="root";
-            String pass="jack";
+            String pass="xxx";
 
             Class.forName(driver);
             Connection conn=DriverManager.getConnection(url,user,pass);
